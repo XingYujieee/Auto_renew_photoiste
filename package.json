@@ -1,0 +1,15 @@
+{
+  "name": "photography-gallery-generator",
+  "version": "1.0.0",
+  "description": "自动生成摄影作品集画廊页面",
+  "main": "generate-gallery.js",
+  "scripts": {
+    "update": "node update-gallery.js",
+    "build": "npm run update"
+  },
+  "dependencies": {},
+  "keywords": ["photography", "gallery", "automation"],
+  "author": "Xing",
+  "license": "MIT"
+}
+
